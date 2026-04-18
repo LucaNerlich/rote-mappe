@@ -1,0 +1,335 @@
+{
+  "documentTitle": "NOTFALLAKTE FAMILIE MUSTERMANN",
+  "salutation": "Herr",
+  "firstName": "Max",
+  "middleName": "Alexander",
+  "lastName": "Mustermann",
+  "street": "Musterstraße",
+  "houseNumber": "123",
+  "zipCode": "12345",
+  "city": "Musterstadt",
+  "maritalStatus": "verheiratet",
+  "marriageDate": "2010-05-15",
+  "divorceDate": "",
+  "childrenCount": "2",
+  "children": [
+    {
+      "id": "c1",
+      "firstName": "Lisa",
+      "middleName": "Marie",
+      "lastName": "Mustermann",
+      "birthDate": "2012-08-20",
+      "birthPlace": "Musterstadt",
+      "phone": "0151-1234567"
+    },
+    {
+      "id": "c2",
+      "firstName": "Felix",
+      "middleName": "",
+      "lastName": "Mustermann",
+      "birthDate": "2015-03-10",
+      "birthPlace": "Musterstadt",
+      "phone": ""
+    }
+  ],
+  "birthDate": "1980-12-01",
+  "birthPlace": "Berlin",
+  "birthCountry": "Deutschland",
+  "taxId": "12 345 678 901",
+  "socialSecurityNumber": "12 011280 M 012",
+  "contacts": [
+    {
+      "id": "cont1",
+      "type": "Ehefrau",
+      "name": "Erika Mustermann",
+      "phone": "0152-9876543",
+      "email": "erika.mustermann@example.com"
+    },
+    {
+      "id": "cont2",
+      "type": "Hausarzt",
+      "name": "Dr. med. Johannes Heiler",
+      "phone": "01234-56789",
+      "email": "praxis@heiler-musterstadt.de"
+    },
+    {
+      "id": "cont3",
+      "type": "Bester Freund",
+      "name": "Thomas Müller",
+      "phone": "0170-1122334",
+      "email": "thomas.mueller@beispiel.de"
+    }
+  ],
+  "medicalData": {
+    "bloodType": "A+",
+    "organDonor": false,
+    "explicitOrganDonationContradiction": true,
+    "conditions": "Leichtes Asthma, Heuschnupfen im Frühjahr.",
+    "medications": "Salbutamol Spray (bei Bedarf)\nCetirizin (täglich im April/Mai)",
+    "allergies": "Penicillin"
+  },
+  "medicalNotes": "Blutdruck ist meistens eher niedrig.",
+  "bankAccounts": [
+    {
+      "id": "bank1",
+      "bankName": "Musterbank AG",
+      "bankAddress": "Bankstraße 1, 12345 Musterstadt",
+      "accountHolder": "Max Mustermann",
+      "iban": "DE12 3456 7890 1234 5678 90",
+      "bic": "MUSBDEFFXXX",
+      "hasPowerOfAttorney": true,
+      "poaFirstName": "Erika",
+      "poaLastName": "Mustermann",
+      "poaAddress": "Musterstraße 123, 12345 Musterstadt",
+      "poaBirthDate": "1982-04-12",
+      "poaPhone": "0152-9876543"
+    },
+    {
+      "id": "bank2",
+      "bankName": "Sparkasse Musterstadt",
+      "bankAddress": "Sparkassenplatz 1, 12345 Musterstadt",
+      "accountHolder": "Max Mustermann",
+      "iban": "DE98 7654 3210 9876 5432 10",
+      "bic": "SPKDEFFXXX",
+      "hasPowerOfAttorney": false
+    }
+  ],
+  "financeNotes": "Im Tresor (Schlafzimmer) befinden sich noch ca. 500€ Bargeld. Code siehe digitale Identitäten.",
+  "otherAssets": [
+    {
+      "id": "asset_h1",
+      "type": "heading",
+      "description": "",
+      "isHeading": true,
+      "title": "Wertgegenstände"
+    },
+    {
+      "id": "asset1",
+      "type": "Goldmünzen (Krügerrand)",
+      "description": "3 Unzen Gold, gelagert im Bankschließfach der Musterbank AG."
+    }
+  ],
+  "realEstates": [
+    {
+      "id": "re1",
+      "type": "Einfamilienhaus (Eigennutzung)",
+      "address": "Musterstraße 123, 12345 Musterstadt",
+      "country": "Deutschland"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "con1",
+      "type": "Haftpflichtversicherung",
+      "provider": "Allianz",
+      "contractNumber": "H-12345-6789"
+    },
+    {
+      "id": "con2",
+      "type": "Stromtarif",
+      "provider": "Stadtwerke Musterstadt",
+      "contractNumber": "Kunden-Nr. 98765"
+    }
+  ],
+  "contractNotes": "Alle Versicherungsunterlagen liegen im blauen Ordner im Arbeitszimmer.",
+  "digitalIdentities": [
+    {
+      "id": "digi_h1",
+      "type": "heading",
+      "title": "E-Mail & Apple",
+      "username": "",
+      "password": "",
+      "url": ""
+    },
+    {
+      "id": "digi1",
+      "type": "account",
+      "title": "Haupt-E-Mail (Google)",
+      "username": "max.mustermann@gmail.com",
+      "password": "MusterPassword2024!",
+      "url": "mail.google.com"
+    },
+    {
+      "id": "digi2",
+      "type": "account",
+      "title": "Apple ID",
+      "username": "max.mustermann@icloud.com",
+      "password": "ApplePassword123",
+      "url": "icloud.com"
+    },
+    {
+      "id": "digi_h2",
+      "type": "heading",
+      "title": "Zugangsdaten Internet",
+      "username": "",
+      "password": "",
+      "url": ""
+    },
+    {
+      "id": "digi3",
+      "type": "account",
+      "title": "Telekom (Festnetz & Internet)",
+      "username": "max.mustermann@t-online.de",
+      "password": "TelekomRouter2024",
+      "url": "telekom.de/kundencenter"
+    },
+    {
+      "id": "digi4",
+      "type": "account",
+      "title": "FritzBox Router Login",
+      "username": "admin",
+      "password": "RouterAdminPass123",
+      "url": "192.168.178.1"
+    },
+    {
+      "id": "digi_h3",
+      "type": "heading",
+      "title": "Streaming & Entertainment",
+      "username": "",
+      "password": "",
+      "url": ""
+    },
+    {
+      "id": "digi5",
+      "type": "account",
+      "title": "Netflix",
+      "username": "familie.mustermann@gmail.com",
+      "password": "NetflixFamily!99",
+      "url": "netflix.com"
+    },
+    {
+      "id": "digi6",
+      "type": "account",
+      "title": "Spotify",
+      "username": "max.mustermann",
+      "password": "MusicLover1234",
+      "url": "spotify.com"
+    }
+  ],
+  "devicePINs": "iPhone PIN: 123456\nTresor Schlafzimmer: 4711\n\nWICHTIG: Auf der Netzwerkfestplatte (NAS) liegt ein Keytresor (Keepass-Datei). Bitte die Anleitung zu Keepass beachten. Das Masterpasswort lautet: SommerSonneSonnenschein2024!",
+  "idCard": {
+    "id": "idcard",
+    "name": "Personalausweis",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "passport": {
+    "id": "passport",
+    "name": "Reisepass",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "driversLicense": {
+    "id": "driverslicense",
+    "name": "Führerschein",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "certificates": [
+    {
+      "id": "cert1",
+      "school": "Pestalozzi Grundschule",
+      "degree": "Grundschulabschluss",
+      "year": "1990",
+      "document": {
+        "id": "doc_cert1",
+        "name": "Zeugnis: Grundschulabschluss",
+        "documentAction": "placeholder",
+        "fileData": null,
+        "fileType": null
+      }
+    },
+    {
+      "id": "cert2",
+      "school": "Goethe-Gymnasium",
+      "degree": "Abitur",
+      "year": "1999",
+      "document": {
+        "id": "doc_cert2",
+        "name": "Zeugnis: Abitur",
+        "documentAction": "placeholder",
+        "fileData": null,
+        "fileType": null
+      }
+    },
+    {
+      "id": "cert3",
+      "school": "Universität Musterstadt",
+      "degree": "Master of Science (Informatik)",
+      "year": "2005",
+      "document": {
+        "id": "doc_cert3",
+        "name": "Zeugnis: Master of Science (Informatik)",
+        "documentAction": "placeholder",
+        "fileData": null,
+        "fileType": null
+      }
+    },
+    {
+      "id": "cert4",
+      "school": "AXELOS",
+      "degree": "ITIL Foundation Certificate",
+      "year": "2010",
+      "document": {
+        "id": "doc_cert4",
+        "name": "Zertifikat: ITIL Foundation",
+        "documentAction": "placeholder",
+        "fileData": null,
+        "fileType": null
+      }
+    },
+    {
+      "id": "cert5",
+      "school": "Scrum Alliance",
+      "degree": "Certified ScrumMaster (CSM)",
+      "year": "2015",
+      "document": {
+        "id": "doc_cert5",
+        "name": "Zertifikat: Certified ScrumMaster (CSM)",
+        "documentAction": "placeholder",
+        "fileData": null,
+        "fileType": null
+      }
+    }
+  ],
+  "keys": [
+    {
+      "id": "key1",
+      "name": "Haustürschlüssel (Ersatz)",
+      "purpose": "Für Notfälle",
+      "location": "Hinterlegt bei Nachbar (Herr Schmidt, Hausnr. 125)"
+    },
+    {
+      "id": "key2",
+      "name": "Briefkastenschlüssel",
+      "purpose": "Briefkasten",
+      "location": "Am Schlüsselbrett im Flur"
+    }
+  ],
+  "customPowersOfAttorney": [],
+  "otherDocuments": [],
+  "documentNotes": "Die Originale aller Zeugnisse und Urkunden liegen im Safe.",
+  "testamentLocation": "Hinterlegt beim Amtsgericht Musterstadt (Aktenzeichen: 123/45). Eine Kopie liegt im Schreibtisch (oberste Schublade).",
+  "poaNotes": "Vorsorgevollmacht für meine Ehefrau liegt bei (siehe Scan bzw. Anlagen).",
+  "generalNotes": "Bitte kümmert euch im Notfall gut um unseren Hund 'Bello'. Futter steht in der Speisekammer.",
+  "customChapters": [
+    {
+      "id": "chap1",
+      "title": "Abonnements & Mitgliedschaften",
+      "content": "Ich bin Mitglied im Fitnessstudio 'Fit & Gesund' (Mitgliedsnummer 5544) und beim ADAC (Nr. 112233). Bitte im Todesfall kündigen."
+    },
+    {
+      "id": "chap2",
+      "title": "Renten & Vorsorge",
+      "content": "Alle Unterlagen zur gesetzlichen Rente (Rentenversicherungsnummer: 12 011280 M 012) befinden sich in dem grünen Leitz-Ordner. Die betriebliche Altersvorsorge läuft über die Allianz (Vertragsnummer: BV-998877). Bitte bei der Personalabteilung meines Arbeitgebers melden, um Auszahlungen zu aktivieren."
+    },
+    {
+      "id": "chap3",
+      "title": "Vereine & Ehrenamt",
+      "content": "Ich bin Kassenwart im örtlichen Tennisverein. Der Zugang zur Vereinskasse und alle Dokumente müssen an den 1. Vorsitzenden (Klaus Meier, 0155-1122334) übergeben werden. Die Unterlagen liegen in der roten Mappe auf meinem Schreibtisch."
+    }
+  ]
+}
