@@ -177,9 +177,19 @@ export function Welcome({ onStart }: WelcomeProps) {
 
       </div>
       
-      <p className="mt-8 text-slate-400 text-sm text-center max-w-lg">
-        {t('welcome.note')}
-      </p>
+      <div className="mt-8 flex flex-col items-center gap-2">
+        <p className="text-slate-400 dark:text-slate-500 text-sm text-center max-w-lg">
+          {t('welcome.note')}
+        </p>
+        <a 
+          href="https://github.com/Alpha63/rote-mappe" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-xs text-slate-400 hover:text-indigo-600 dark:text-slate-500 dark:hover:text-indigo-400 transition-colors"
+        >
+          v1.1.0
+        </a>
+      </div>
     </div>
   );
 }
