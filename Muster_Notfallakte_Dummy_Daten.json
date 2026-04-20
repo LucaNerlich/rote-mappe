@@ -228,6 +228,55 @@
     "fileData": null,
     "fileType": null
   },
+  "birthCert": {
+    "id": "birthcert",
+    "name": "Geburtsurkunde",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "marriageCert": {
+    "id": "marriagecert",
+    "name": "Heiratsurkunde",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "divorceCert": {
+    "id": "divorcecert",
+    "name": "Scheidungsurkunde",
+    "documentAction": "skip",
+    "fileData": null,
+    "fileType": null
+  },
+  "patientenverfuegung": {
+    "id": "patientenverfuegung",
+    "name": "Patientenverfügung",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "vorsorgevollmacht": {
+    "id": "vorsorgevollmacht",
+    "name": "Vorsorgevollmacht",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "betreuungsverfuegung": {
+    "id": "betreuungsverfuegung",
+    "name": "Betreuungsverfügung",
+    "documentAction": "placeholder",
+    "fileData": null,
+    "fileType": null
+  },
+  "bestattungsverfuegung": {
+    "id": "bestattungsverfuegung",
+    "name": "Bestattungsverfügung",
+    "documentAction": "skip",
+    "fileData": null,
+    "fileType": null
+  },
   "certificates": [
     {
       "id": "cert1",

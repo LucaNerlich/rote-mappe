@@ -75,7 +75,25 @@ Der Schutz Ihrer hochsensiblen Daten steht bei diesem Projekt an oberster Stelle
 - **DSGVO-konform by Design:** Da keine personenbezogenen Daten den Client verlassen, ist die Anwendung inhärent datenschutzkonform.
 - **Keine Tracking-Skripte:** Es werden keine externen Analyse-Tools, Tracker oder externe Schriftarten geladen.
 
-## 🛠️ Technologien
+## 🔗 Verwendete Links & Vorlagen
+
+Um den Erstellungsprozess der Notfallakte so einfach und rechtssicher wie möglich zu gestalten, verweist die Anwendung im Bereich "Vollmachten & Verfügungen" auf externe, offizielle Vorlagen. Diese Links werden angeboten, da eigene, laienhafte Formulierungen bei solch sensiblen Dokumenten im Ernstfall von Banken, Ärzten oder Gerichten oft nicht anerkannt werden.
+
+Folgende Quellen & Links werden in der App empfohlen:
+
+- **Bundesministerium der Justiz (BMJV):** 
+  - *Link:* [BMJ Formulare für Vorsorgevollmacht & Betreuungsverfügung](https://www.bmj.de/DE/service/formulare/form_vorsorgevollmacht/form_vorsorgevollmacht_node.html)
+  - *Warum?* Das BMJV bietet die offiziellen und rechtlich geprüften Standardformulare für die **Vorsorgevollmacht** und die **Betreuungsverfügung** kostenlos an. Die in der App automatisch generierte "Konto- und Depotvollmacht" basiert ebenfalls auf den offiziellen Formulierungen des BMJV.
+- **Verbraucherzentrale:**
+  - *Link:* [Interaktive Patientenverfügung Online](https://www.verbraucherzentrale.de/patientenverfuegung-online)
+  - *Warum?* Die Verbraucherzentrale stellt online eine interaktive Vorlage zur **Patientenverfügung** bereit. Diese erstellt durch gezielte Fragen eine auf die persönliche Situation zugeschnittene, medizinisch und rechtlich präzise Verfügung, die Ärzten im Ernstfall klare Handlungsanweisungen gibt.
+- **Friedhofsverband Sauerland:**
+  - *Link:* [Muster Bestattungsverfügung](https://www.friedhofsverband-sauerland.de/info-center/)
+  - *Warum?* Bietet eine hilfreiche, kostenlose und bewährte Vorlage für die **Bestattungsverfügung** an, mit der letzte Wünsche für den Todesfall klar geregelt werden können.
+
+*Hinweis: Alle verlinkten Vorlagen sind Angebote von Dritten. Die Rote Mappe ist unabhängig und verlinkt diese Ressourcen lediglich als kostenlose Hilfestellung für den Nutzer, ohne eine Gewähr für deren rechtliche Bindung zu übernehmen.*
+
+## �️ Technologien
 
 Dieses Projekt nutzt modernste Webtechnologien für maximale Performance und Sicherheit:
 
@@ -133,6 +151,17 @@ Wenn Sie aktiv am Code arbeiten möchten oder die App ohne Docker lokal starten 
 ## 🤝 Mitwirken (Contributing)
 
 Beiträge zum Projekt sind jederzeit willkommen! Wenn Sie Fehler finden, Verbesserungen am Design vorschlagen möchten oder neue Funktionen entwickeln, zögern Sie nicht, ein Issue oder einen Pull Request zu erstellen.
+
+## ⚠️ Haftungsausschluss (Disclaimer)
+
+Dieses Projekt ist ein reines Open-Source-Hobbyprojekt und wird "wie besehen" (as is) ohne jegliche Garantien zur Verfügung gestellt. 
+
+- **Keine Rechts- oder Fachberatung:** Die Anwendung, die vorgegebenen Texte und die generierten PDFs dienen ausschließlich der privaten, organisatorischen Hilfestellung. Sie stellen **keine rechtliche, medizinische oder notarielle Beratung** dar. Für die rechtliche Gültigkeit, Richtigkeit und Vollständigkeit der erstellten Dokumente im Ernstfall (vermeintliche Falschangaben oder unzureichende Formulierungen) wird **keine Haftung** übernommen.
+- **Externe Links:** Die Anwendung verweist auf externe Webseiten Dritter (z.B. BMJV, Verbraucherzentrale, Friedhofsverbände). Auf die aktuellen und zukünftigen Inhalte dieser Seiten habe ich keinen Einfluss und übernehme dafür ausdrücklich keine Gewähr. Für die Inhalte und Richtigkeit der verlinkten Formulare und Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
+- **Eingebundene Bibliotheken & Software:** Die "Rote Mappe" nutzt diverse Open-Source-Bibliotheken (z.B. React, pdf-lib, JSZip). Ich übernehme keine Haftung für mögliche Fehler, Bugs, Datenverluste oder Sicherheitslücken, die durch die Nutzung dieser Fremdsoftware entstehen könnten.
+- **Haftungsbeschränkung:** Die Nutzung der Software erfolgt vollständig auf eigene Gefahr. Jeder Nutzer ist selbst dafür verantwortlich, die generierten Dokumente (insbesondere Vollmachten und Verfügungen) auf ihre inhaltliche Korrektheit und rechtliche Wirksamkeit zu prüfen (ggf. durch anwaltliche oder notarielle Beratung). Eine Haftung für materielle, ideelle oder rechtliche Schäden, die durch die Nutzung oder Nichtnutzung dieser Anwendung (z.B. Nichtanerkennung der Notfallakte durch Behörden, Banken oder Ärzte) entstehen, ist grundsätzlich ausgeschlossen.
+
+Das Projekt dient in erster Linie, einen ersten Anlaufpunkt zu bieten, wie man solch eine Rote Mappe anfertigen könnte.
 
 ## 📜 Lizenz
 
