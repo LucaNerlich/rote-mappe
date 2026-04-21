@@ -4,5 +4,5 @@ services:
     build: .
     container_name: notfallakte
     ports:
-      - "8080:80"
+      - "${PORT:-8080}:80"
     restart: unless-stopped
