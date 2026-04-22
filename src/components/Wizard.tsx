@@ -3,10 +3,10 @@ import { Sidebar } from './Sidebar';
 import { ArrowRight, ArrowLeft, AlertTriangle, Menu, ShieldCheck } from 'lucide-react';
 import { FormProvider, useFormContext } from '../FormContext';
 import { useTranslation } from 'react-i18next';
-import { 
-  Step1Basisdaten, Step2MedizinischeDaten, Step3Finanzen, Step4Vertraege, 
-  Step5DigitaleIdentitaet, Step6Dokumente, Step7Vollmachten, Step8Hinweise, 
-  Step9EigeneKapitel, Step10Abschluss 
+import {
+  Step1Basisdaten, Step2MedizinischeDaten, Step3Finanzen, Step4Vertraege,
+  Step5DigitaleIdentitaet, Step6Dokumente, Step7Vollmachten, Step8Hinweise,
+  Step9EigeneKapitel, Step10Abschluss
 } from './WizardSteps';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -88,15 +88,15 @@ function WizardContent() {
 
   return (
     <div className="flex flex-col lg:flex-row min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200">
-      <Sidebar 
-        currentStep={step} 
-        setStep={(s) => handleNextClick(s)} 
-        isOpen={isSidebarOpen} 
-        onClose={() => setIsSidebarOpen(false)} 
+      <Sidebar
+        currentStep={step}
+        setStep={(s) => handleNextClick(s)}
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
       />
-      
+
       <div className="flex-1 flex flex-col min-w-0">
-        
+
         {/* Mobile Header */}
         <header className="lg:hidden bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 p-4 flex items-center justify-between sticky top-0 z-30 shadow-sm">
           <div className="flex items-center gap-2.5">
@@ -107,8 +107,8 @@ function WizardContent() {
           </div>
           <div className="flex items-center gap-3">
             <ThemeToggle />
-            <button 
-              onClick={() => setIsSidebarOpen(true)} 
+            <button
+              onClick={() => setIsSidebarOpen(true)}
               className="p-2 -mr-2 text-indigo-600 dark:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors"
             >
               <Menu size={24} />
@@ -116,9 +116,9 @@ function WizardContent() {
           </div>
         </header>
 
-        <main className="p-4 md:p-8 lg:p-12 max-w-[90rem] mx-auto w-full h-full flex-1">
+        <main className="p-4 md:p-8 lg:p-12 max-w-360 mx-auto w-full h-full flex-1">
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-5 md:p-8 shadow-sm border border-slate-200 dark:border-slate-700 min-h-[calc(100vh-8rem)] flex flex-col">
-            
+
             <div className="flex-1">
               {renderStep()}
             </div>
@@ -133,7 +133,7 @@ function WizardContent() {
                 <ArrowLeft size={18} />
                 {t('wizard.back')}
               </button>
-              
+
               {step < 10 ? (
                 <button
                   onClick={() => handleNextClick(Math.min(10, step + 1))}
@@ -143,10 +143,10 @@ function WizardContent() {
                   <ArrowRight size={18} />
                 </button>
               ) : (
-                <div /> 
+                <div />
               )}
             </div>
-            
+
           </div>
         </main>
       </div>
