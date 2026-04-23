@@ -87,13 +87,13 @@ export function Welcome({ onStart }: WelcomeProps) {
               <Globe size={14} className="text-indigo-400 dark:text-indigo-300" />
               <button
                 onClick={() => i18n.changeLanguage('de')}
-                className={`text-xs font-medium px-2 py-1 rounded transition-colors ${i18n.language === 'de' || !i18n.language || i18n.language.startsWith('de') ? 'bg-indigo-600 text-white shadow-sm' : 'text-indigo-700 dark:text-indigo-300 hover:bg-white/60 dark:hover:bg-slate-700/60'}`}
+                className={`text-xs font-medium px-2 py-1 rounded transition-colors cursor-pointer ${i18n.language === 'de' || !i18n.language || i18n.language.startsWith('de') ? 'bg-indigo-600 text-white shadow-sm' : 'text-indigo-700 dark:text-indigo-300 hover:bg-white/60 dark:hover:bg-slate-700/60'}`}
               >
                 DE
               </button>
               <button
                 onClick={() => i18n.changeLanguage('en')}
-                className={`text-xs font-medium px-2 py-1 rounded transition-colors ${i18n.language === 'en' || i18n.language.startsWith('en') ? 'bg-indigo-600 text-white shadow-sm' : 'text-indigo-700 dark:text-indigo-300 hover:bg-white/60 dark:hover:bg-slate-700/60'}`}
+                className={`text-xs font-medium px-2 py-1 rounded transition-colors cursor-pointer ${i18n.language === 'en' || i18n.language.startsWith('en') ? 'bg-indigo-600 text-white shadow-sm' : 'text-indigo-700 dark:text-indigo-300 hover:bg-white/60 dark:hover:bg-slate-700/60'}`}
               >
                 EN
               </button>
