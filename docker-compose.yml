@@ -1,8 +1,21 @@
 services:
   notfallakte-app:
     build: .
+    restart: unless-stopped
+    # Internal port the container listens on (nginx-unprivileged).
+    # Coolify/Traefik uses this to route traffic inside the Docker network.
     expose:
       - "8080"
+    # Host port mapping is only needed for local/standalone Docker usage.
+    # We deliberately do NOT use the env var name `PORT` here, because
+    # Coolify injects `PORT` into the container and that would rewrite
+    # the host-side mapping, breaking Traefik routing (503 no server available).
+    # On Coolify this mapping is harmless; Traefik routes via `expose` internally.
     ports:
-      - "${PORT:-8080}:8080"
-    restart: unless-stopped
+      - "${HOST_PORT:-8080}:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://127.0.0.1:8080/ || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
