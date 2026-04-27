@@ -58,9 +58,9 @@ const resources = {
         remove: "Dokument entfernen",
         customNamePlaceholder: "Name des Dokuments (z.B. Generalvollmacht)",
         whatToDo: "Wie möchten Sie mit diesem Dokument verfahren?",
-        actionUpload: "Scan jetzt hochladen (wird im PDF integriert)",
+        actionUpload: "Scan jetzt hochladen (wird in das PDF integriert)",
         actionPlaceholder: "Später als Kopie einheften (erstellt leere Seite)",
-        actionSkip: "Nicht in PDF aufnehmen",
+        actionSkip: "Nicht in das PDF aufnehmen",
         selectFile: "Datei auswählen (PNG/JPG/PDF)",
         success: "✓ Datei erfolgreich geladen",
         removeLink: "Entfernen"
@@ -126,7 +126,7 @@ const resources = {
           medicationsPlaceholder: "Welche Medikamente nehmen Sie regelmäßig?",
           allergies: "Allergien (insb. Medikamente)",
           allergiesPlaceholder: "z.B. Penicillin...",
-          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Medizinische Daten",
+          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu medizinischen Daten",
           notesDesc: "Gibt es weitere medizinische Aspekte, die Sie erwähnen möchten?"
         },
         step3: {
@@ -168,7 +168,7 @@ const resources = {
           provider: "Anbieter / Gesellschaft",
           contractNumber: "Vertrags- oder Policennummer",
           addContract: "Vertrag hinzufügen",
-          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Verträge & Verbindlichkeiten",
+          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Verträgen & Verbindlichkeiten",
           notesDesc: "Ergänzen Sie hier besondere Hinweise zu Ihren Verträgen.",
           insurance: "Versicherung"
         },
@@ -182,7 +182,7 @@ const resources = {
           password: "Passwort",
           link: "Link",
           addAccount: "Account hinzufügen",
-          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Digitale Identität",
+          notesLabel: "Weitere Hinweise, Anweisungen & Worte zur digitalen Identität",
           notesDesc: "Hinweise zum Master-Passwort oder Geräte-PINs."
         },
         step6: {
@@ -194,7 +194,7 @@ const resources = {
           degree: "Abschlusstitel",
           year: "Abschlussjahr",
           addCert: "Zeugnis hinzufügen",
-          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Persönliche Dokumente",
+          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu persönlichen Dokumenten",
           notesDesc: "Notieren Sie hier beispielsweise, wo sich Originale oder Kopien befinden.",
           certPrefix: "Zeugnis: ",
           certNoTitle: "Ohne Titel"
@@ -235,7 +235,7 @@ const resources = {
           keyPurpose: "Einsatzzweck",
           keyLocation: "Ablageort (Optional)",
           addKey: "Schlüssel hinzufügen",
-          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu Allgemeine Hinweise & Schlüssel",
+          notesLabel: "Weitere Hinweise, Anweisungen & Worte zu allgemeinen Hinweisen & Schlüsseln",
           notesDesc: "Hinterlassen Sie hier allgemeine Hinweise, z.B. Anweisungen für Haustiere."
         },
         step9: {
@@ -333,8 +333,8 @@ const resources = {
         helpers: {
           attachment: "Anhang: ",
           attachmentPdf: "Anhang (PDF): ",
-          placeholderText: "(Bitte heften Sie hier an dieser Stelle später das Original oder eine Kopie von: {{name}} ein)",
-          notesTitle: "Weitere Hinweise, Anweisungen & Worte zu {{sectionName}}",
+          placeholderText: "(Bitte heften Sie an dieser Stelle später das Original oder eine Kopie von: {{name}} ein)",
+          notesTitle: "Weitere Hinweise, Anweisungen & Worte zum Thema „{{sectionName}}“",
           generalNotesTitle: "Weitere Hinweise, Anweisungen & Worte"
         },
         keysSection: {
@@ -445,7 +445,7 @@ const resources = {
           salutation: "Salutation",
           salutationMr: "Mr.",
           salutationMrs: "Mrs.",
-          salutationDiv: "Diverse",
+          salutationDiv: "Non-binary",
           firstName: "First Name",
           middleName: "Middle Name (optional)",
           lastName: "Last Name",
@@ -629,7 +629,7 @@ const resources = {
           downloadBtn: "ZIP (PDF & Uploads)",
           backupTitle: "Backup of your data",
           backupDesc: "When you click the download button, you will receive a ZIP archive. In addition to the finished PDF and your attachments, this also contains a file named",
-          backupDesc2: "Keep this file safe! You can read this JSON file back in on the home page at any time to make changes or additions without having to fill everything in again.",
+          backupDesc2: "Keep this file safe! You can re-import this JSON file from the home page at any time to make changes or additions without having to fill everything in again.",
           previewTitle: "PDF Preview",
           previewGenerating: "Generating preview...",
           previewWait: "This may take a moment."
@@ -693,7 +693,7 @@ const resources = {
         financeSection: {
           coverTitle: "FINANCES & ASSETS",
           coverDesc: "Overview of bank accounts, portfolios, real estate and\nother assets.",
-          warning: "IMPORTANT: Bank-internal powers of attorney must be available in original!",
+          warning: "IMPORTANT: Bank-internal powers of attorney must be available in the original!",
           accounts: "Bank Accounts & Portfolios:",
           accountHeaders: ["Bank / Portfolio", "Holder", "IBAN / Account No.", "BIC"],
           assets: "Other Assets (Gold, Crypto, etc.):",
@@ -734,8 +734,8 @@ const resources = {
         poaSection: {
           coverTitle: "POWERS OF ATTORNEY & DIRECTIVES",
           coverDesc: "Important legal documents, will and\nother powers of attorney.",
-          warning: "IMPORTANT: Will and precautionary power of attorney must almost always be available in original!",
-          warning2: "Living Will: Original is safest, copy is often accepted in an emergency.",
+          warning: "IMPORTANT: Will and precautionary power of attorney must almost always be available in the original!",
+          warning2: "Living Will: The original is safest; a copy is often accepted in an emergency.",
           testamentLoc: "Storage location of the will:"
         },
         tocPage: {

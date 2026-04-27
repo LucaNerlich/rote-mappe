@@ -33,3 +33,4 @@ coverage/
 *.sln
 *.sw?
 Thumbs.db
+/pnpm-lock.yaml
