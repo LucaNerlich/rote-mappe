@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-04-28
+
+### Added
+- **CI:** Einfache GitHub Action für die Continuous Integration hinzugefügt (#10 von [@LucaNerlich]).
+
+### Changed
+- **PWA:** `vite-pwa` wurde durch einen Stub-Service-Worker ersetzt, um Chrome-Warnungen zu beheben (#13 von [@LucaNerlich]).
+- **Docker:** Die Umgebungsvariable `PORT` wurde in der Compose-Datei in `HOST_PORT` umbenannt (#12 von [@LucaNerlich]).
+- **Refactoring:** Die Wizard-Schritte wurden zur besseren Wartbarkeit strukturell aufgeteilt (#9 von [@LucaNerlich]).
+- **Cleanup:** Ungenutzte Hilfsskripte (Helper Scripts) wurden entfernt (#7 von [@LucaNerlich]).
+- **Lokalisierung:** Korrekturen und Verbesserungen an den Übersetzungs-Strings (#6 von [@LucaNerlich]).
+
+### Fixed
+- **UI (Wizard):** Eine doppelte CSS-Klasse (`className`) auf dem mobilen Menü-Button wurde entfernt (#14 von [@LucaNerlich]).
+- **UI:** Fehlender Mauszeiger (`cursor: pointer`) bei den Welcome-Buttons wurde hinzugefügt.
+
 ## [1.2.0] - 2026-04-22
 
 ### Changed
