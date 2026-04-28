@@ -109,7 +109,6 @@ function WizardContent() {
             <ThemeToggle />
             <button
               onClick={() => setIsSidebarOpen(true)}
-              className="p-2 -mr-2 text-indigo-600 dark:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors"
               className="p-2 -mr-2 text-indigo-600 dark:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors cursor-pointer"
             >
               <Menu size={24} />
